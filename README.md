@@ -8,6 +8,6 @@ npm link
 
 ex: 
 ```
-rdomScript 刘坚
+rdomScript -l=刘坚 -l=文旺
 ```
-会剔除掉刘坚
+会剔除掉刘坚,文旺
