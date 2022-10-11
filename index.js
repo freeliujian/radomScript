@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+const argv = require('yargs-parser')(process.argv.slice(2))
+
 function translateList(onLeaveColleagues) {
   let colleagues = [
     "陈侃",
@@ -40,4 +42,4 @@ function translateList(onLeaveColleagues) {
   console.log(str);
 }
 
-translateList([process.argv[process.argv.length - 1]]);
+translateList(argv.l);

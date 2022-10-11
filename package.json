@@ -10,5 +10,8 @@
   "license": "ISC",
   "bin": {
     "rdomscript": "./index.js"
+  },
+  "dependencies": {
+    "yargs-parser": "^21.1.1"
   }
 }

@@ -1,0 +1,14 @@
+lockfileVersion: 5.4
+
+specifiers:
+  yargs-parser: ^21.1.1
+
+dependencies:
+  yargs-parser: 21.1.1
+
+packages:
+
+  /yargs-parser/21.1.1:
+    resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
+    engines: {node: '>=12'}
+    dev: false
