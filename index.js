@@ -14,7 +14,7 @@ function translateList(onLeaveColleagues) {
     "王海飞",
   ];
 
-  if (onLeaveColleagues.length !== 0 && onLeaveColleagues.length < 4) {
+  if (!!onLeaveColleagues && onLeaveColleagues.length !== 0 && onLeaveColleagues.length < 4) {
     colleagues = colleagues.filter((name) => !onLeaveColleagues.includes(name));
   }
 
