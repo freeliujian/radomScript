@@ -4,7 +4,6 @@ const argv = require('yargs-parser')(process.argv.slice(2))
 
 function translateList(onLeaveColleagues) {
   let colleagues = [
-    "陈侃",
     "文旺",
     "张一行",
     "张基琳",
